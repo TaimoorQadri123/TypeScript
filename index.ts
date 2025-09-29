@@ -18,4 +18,23 @@ let tuplelist:[number,string,boolean] = [23,"Ali",true]
 
 console.log(tuplelist[1]);
 
+let obj:any = 
+{
+    "username": "Saad",
+    "Age":12
+}
+console.log(obj["username"]);
+
+
+function abc(){
+console.log("HI world")
+
+}
+abc();
+
+function Details(name:string,age:number)
+{
+    console.log(`Name: ${name}\nAge: ${age}`)
+}
+Details("Aina",23);
 
